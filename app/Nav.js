@@ -13,7 +13,7 @@ function Nav() {
     }
 
     useEffect(()=>{
-        window.addEventListener("scoll",transitionNavBar)
+        window.addEventListener("scroll",transitionNavBar)
         return ()=>window.removeEventListener("scroll",transitionNavBar)
     },[])
   return (

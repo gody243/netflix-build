@@ -1,6 +1,6 @@
 'use client'
 import React, { useEffect, useState } from 'react'
-import Bannercss from './Banner.css'
+import './Banner.css'
 import axios from './axios';
 import requests from './Requests';
 
